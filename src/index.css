@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Public Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.container {
+  margin-top: 260px;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(19, 100px);
+  grid-template-rows: 60px 75px 100px 100px 100px 100px 100px 100px;
+  background-color: hsl(0, 0%, 98%);
+  max-width: 2000px;
+}
+.item1 {
+  grid-row: 2 / 2;
+  grid-column: 3 / 10;
+}
+.item2 {
+  grid-row: 3 / 3;
+  grid-column: 3 / 12;
+}
+
+/* Zdjecia ikonki */
+.a1nd {
+  grid-row: 4 / 4;
+  grid-column: 3 / 9;
+}
+.a2nd {
+  grid-row: 4 / 4;
+  grid-column: 7 / 9;
+}
+.a3nd {
+  grid-row: 4 / 4;
+  grid-column: 11 / 11;
+}
+.a4nd {
+  grid-row: 4 / 4;
+  grid-column: 15 / 15;
+}

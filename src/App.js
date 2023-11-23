@@ -1,3 +1,18 @@
+import React from "react";
+import Nav from "./nav";
+import Main from "./main";
+import MainText from "./main-text";
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div>
+      <div>
+        <Nav />
+      </div>
+      <div>
+        <Main />
+        <MainText />
+      </div>
+      <div></div>
+    </div>
+  );
 }

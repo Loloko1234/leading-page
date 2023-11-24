@@ -6,7 +6,7 @@ const MainText = () => {
       <div>
         <div className="flex text-6xl mt-48 ml-48 mb-10">
           <h1 className="">
-            <div>Next generation</div>
+            <div>Next generationn</div>
             <div className="mt-1">digital banking</div>
           </h1>
         </div>

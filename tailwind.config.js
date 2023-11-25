@@ -16,6 +16,10 @@ module.exports = {
         "hsl-136": "hsl(136, 65%, 51%)",
         "hsl-233": "hsl(192, 70%, 51%)",
         VeryLightGray: "hsl(0, 0%, 98%)",
+        DarkBlue: "hsl(233, 26%, 24%)",
+      },
+      padding: {
+        18: "4.5rem", // Dodanie wartości p-18 o wartości 4.5rem
       },
       backgroundImage: (theme) => ({
         "gradient-hsl": `linear-gradient(to right, ${theme(

@@ -16,7 +16,7 @@ const MainText = () => {
           more.
         </p>
         <div className="flex">
-          <button className="b rounded-full bg-gradient-hsl p-2 h-12 w-44 text-white text-1xl ml-48 mt-10">
+          <button className="b rounded-full bg-gradient-hsl p-2 h-12 w-44 text-white text-1xl ml-48 mt-10 transition ease-in duration-300 hover:bg-blue-300 ">
             Request Invite
           </button>
         </div>

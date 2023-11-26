@@ -17,9 +17,16 @@ module.exports = {
         "hsl-233": "hsl(192, 70%, 51%)",
         VeryLightGray: "hsl(0, 0%, 98%)",
         DarkBlue: "hsl(233, 26%, 24%)",
+        LimeGreen: "hsl(136, 65%, 51%)",
+        "custom-gradient-start-hover": "#ffcc00",
+        "custom-gradient-end-hover": "#0099ff",
+        LightGrayishBlue: "hsl(192, 70%, 51%)",
       },
       padding: {
         18: "4.5rem", // Dodanie wartości p-18 o wartości 4.5rem
+      },
+      height: {
+        15: "3.85rem", // Dodanie wartości h-15 o wartości 3.75rem
       },
       backgroundImage: (theme) => ({
         "gradient-hsl": `linear-gradient(to right, ${theme(

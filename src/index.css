@@ -9,12 +9,12 @@ body {
   font-size: 18px;
 }
 .container {
-  margin-top: 210px;
+  margin-top: 160px;
   display: grid;
   width: 100%;
   grid-template-columns: repeat(20, 100px);
   grid-template-rows: 75px 75px 100px 100px 75px 100px 100px 100px;
-  background-color: hsl(0, 96%, 50%);
+  background-color: hsl(0, 0%, 96%);
   max-width: 2200px;
 }
 .item1 {
@@ -63,4 +63,31 @@ body {
   grid-template-columns: 100px 100px 150px 100px 150px 110px 150px 100px 100px 100px 100px 300px 300px 100px 100px 100px 100px 100px 100px 100px;
   grid-template-rows: 120px 50px;
   max-width: 2200px;
+}
+.b {
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  /* Pozostałe style dla Twojego przycisku */
+}
+
+.b:hover {
+  background-image: linear-gradient(
+    to right,
+    hsla(136, 65%, 51%, 0.6),
+    hsla(192, 70%, 51%, 0.6)
+  );
+}
+@media sreen and (max-width: 375px) {
+  .container {
+    margin-top: 100px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(20, 100px);
+    grid-template-rows: 75px 75px 100px 100px 75px 100px 100px 100px;
+    background-color: hsl(0, 0%, 96%);
+    max-width: 2200px;
+  }
 }

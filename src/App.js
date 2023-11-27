@@ -6,11 +6,11 @@ import LatestArticles from "./Lastest-articles";
 import Footer from "./footer";
 export default function App() {
   return (
-    <div>
+    <div className="max-[400px]:max-w-sm">
       <div>
         <Nav />
       </div>
-      <div>
+      <div className="body">
         <Main />
         <MainText />
         <LatestArticles />

@@ -22,6 +22,21 @@ module.exports = {
         "custom-gradient-end-hover": "#0099ff",
         LightGrayishBlue: "hsl(192, 70%, 51%)",
       },
+      gridRowStart: {
+        8: "8",
+        9: "9",
+        10: "10",
+        11: "11",
+        12: "12",
+        13: "13",
+        14: "14",
+        15: "15",
+        16: "16",
+        17: "17",
+        18: "18",
+        19: "19",
+        20: "20",
+      },
       padding: {
         18: "4.5rem", // Dodanie wartości p-18 o wartości 4.5rem
       },
